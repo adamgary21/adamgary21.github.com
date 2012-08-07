@@ -1,0 +1,14 @@
+auto: true
+name: Adam Gary
+permalink: /:month-:day-:year/:title.html
+author: Adam Gary
+
+source:      .
+destination: ./_site
+includes:    ./_includes
+font: Ubuntu
+
+markdown: rdiscount
+
+description: "A blog to record and display my thoughts, how-to's, and experience with technology, By Adam Gary."
+root_desc: "AdamGary.com - Tech News, How-To's and Experience"

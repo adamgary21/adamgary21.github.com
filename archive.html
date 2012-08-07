@@ -1,0 +1,21 @@
+---
+layout: default
+title:  Archive
+---
+
+<div id="archive">
+
+
+<h1>List of Past Posts</h1>
+
+	<ul>
+
+		{% for post in site.posts off %}
+	
+			<li>{{ post.title }}</li>
+	
+
+		{% endfor %}
+	</ul>
+	
+</div>
