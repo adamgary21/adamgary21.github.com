@@ -246,7 +246,7 @@ a:hover
 
 /* Sticky Note-Like Box */
 
-.sticky note{
+.sticky_note{
 background-color: #FEFCAF;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#FEFCAF), to(#FFFEDA));
 background-image: -webkit-linear-gradient(top, #FEFCAF, #FFFEDA);
