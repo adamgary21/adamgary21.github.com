@@ -246,41 +246,35 @@ a:hover
 
 /* Sticky Note-Like Box */
 
-.sticky_note{
-background-color: #FEFCAF;
-background-image: -webkit-gradient(linear, left top, left bottom, from(#FEFCAF), to(#FFFEDA));
-background-image: -webkit-linear-gradient(top, #FEFCAF, #FFFEDA);
-background-image: -moz-linear-gradient(top, #FEFCAF, #FFFEDA);
-background-image: -ms-linear-gradient(top, #FEFCAF, #FFFEDA);
-background-image: -o-linear-gradient(top, #FEFCAF, #FFFEDA);
-padding: 15px;
-margin: 0 0 20px 0;
--webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
--moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+<p class="sticky taped" style="width: 250px;">
+  <strong>The Little Turtle</strong>.<br />
+  There was a little turtle.<br />
+  He lived in a box.<br />
+  He swam in a puddle.<br />
+  He climbed on the rocks.<br />
+  —Vachel Lindsay
+</p>
+
+.sticky {
+  -webkit-box-shadow: #DDD 0px 1px 2px;
+  position: relative;
+  background-color: #F4F39E;
+  border-color: #DEE184;
+  text-align: center;
+  margin: 2.5em 0px;
+  padding: 1.5em 1em;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  font-family: Chalkboard, 'Comic Sans';
 }
-
-
-
-pre {
-position: relative;
-background: #333;
-color: white;
-font-family: Monaco, Courier, MonoSpace;
-line-height: 1.8;
--moz-border-radius: 8px;
--webkit-border-radius: 8px;
-border-radius: 8px;
-font-size: 12px;
-padding: 10px;
-margin: 0 0 25px 0;
-overflow: auto;
+.sticky.taped:after {
+  display: block;
+  content: "";
+  position: absolute; 
+  width: 151px;
+  height: 35px;
+  top: -21px;
+  left: 25%;    
+  background: transparent url(/images/tape.png) 0 0 no-repeat;
 }
-
-pre code {
-padding: 0;
-color: white;
-background: #333;
-white-space: pre;
-}
-
