@@ -243,3 +243,42 @@ a:hover
 	margin: 0px;
 }
 
+
+/* Sticky Note-Like Box */
+
+.sticky note{
+background-color: #FEFCAF;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#FEFCAF), to(#FFFEDA));
+background-image: -webkit-linear-gradient(top, #FEFCAF, #FFFEDA);
+background-image: -moz-linear-gradient(top, #FEFCAF, #FFFEDA);
+background-image: -ms-linear-gradient(top, #FEFCAF, #FFFEDA);
+background-image: -o-linear-gradient(top, #FEFCAF, #FFFEDA);
+padding: 15px;
+margin: 0 0 20px 0;
+-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+pre {
+position: relative;
+background: #333;
+color: white;
+font-family: Monaco, Courier, MonoSpace;
+line-height: 1.8;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+font-size: 12px;
+padding: 10px;
+margin: 0 0 25px 0;
+overflow: auto;
+}
+
+pre code {
+padding: 0;
+color: white;
+background: #333;
+white-space: pre;
+}
+
