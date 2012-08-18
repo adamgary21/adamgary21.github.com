@@ -1,0 +1,245 @@
+/* Remove browser defaults */
+
+* 
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+
+/* Main Site */
+
+body
+{
+	 background:url('foggy_forest.jpeg') no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+
+	 color: #3b4019;
+}
+
+#main_div
+{
+	 width: 100%;
+	 
+}
+
+#inner_container
+{
+	margin: 0px auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 1070px;
+	opacity:0.87;
+}
+
+#header
+{
+	height: 80px;
+	width: 1070px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 3 3 16px rgba(0, 0, 0, .6);
+   	font-weight: heavy; 
+   	font-style: normal; 
+   	font-size: 36px;
+   	color: #d8d9ba;
+   	background-color: #3b4019;
+}
+
+#header a:link 
+{
+	text-decoration: none;	
+	COLOR: #d8d9ba;
+
+}
+
+#header a:visited 
+{
+	COLOR: #d8d9ba;
+}
+
+#header a:hover
+{
+
+	COLOR: #d8d9ba;
+}
+
+#header #text
+{	
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	line-height: 80px;
+}
+
+#header #nav
+{
+	float: right;
+	margin-right: 40px;
+	height: 80px;
+
+}
+
+#header #nav li
+{
+	display: inline;
+	list-style-type; none;
+	padding-right: 20px;
+	font-size: 16px;
+	line-height: 80px;
+}
+
+#content
+{
+	float: left;
+	width: 760px;
+	min-height: 700px;
+	background-color: #d8d9ba;
+	border-radius: 8px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+#content #headline
+{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 30px;
+   	background-color: #3b4019;
+   	color: #d8d9ba;
+   	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+   	line-height: 30px;
+   	padding-left: 20px;
+}
+
+#archive
+{
+	margin: 20px;
+}
+
+#archive h1
+{
+	margin-bottom: 20px;
+}
+
+#archive ul
+{
+list-style-type: none;
+}
+
+#archive ul li
+{
+padding-left: 14px;
+padding-bottom: 5px; 
+}
+
+#sidebar
+{
+	float: right;
+	width: 300px;
+	background-color: #d8d9ba;
+	border-radius: 8px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+	height: 700px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-size: 15px;	
+}
+
+#sidebar #sidebar_content
+{
+	padding: 10px;
+}
+#sidebar #sidebar_content ul
+{
+	list-style-type: none;
+}
+
+#footer
+{
+	width: 1070px;
+	clear: both;
+	border-radius: 8px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+	height: 50px;
+	background-color: #3b4019;
+	color: #d8d9ba;
+}
+
+#footer #text
+{	
+	margin-left: 20px;
+	line-height: 50px;
+}
+
+
+
+/* Posts */
+.post
+{
+	text-align:justify;
+	text-justify:inter-word;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#posts h2
+{
+	margin-bottom: 5px;
+}
+
+.post_date
+{
+	font-style: italic; 
+   	font-size: 12px;
+   	margin-bottom: 15px;
+}
+
+/* Page wide Links */
+
+a:link 
+{
+	text-decoration: none;	
+	COLOR: #3b4019;
+
+}
+
+a:visited 
+{
+	COLOR: #3b4019;
+}
+
+a:hover
+{
+
+	COLOR: #3b4019;
+}
+
+/* Extras */
+
+#twitter_update_list
+{
+	background-color: white;
+}
+
+#twitter_update_list li
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#disqus_thread
+{
+	margin: 0px;
+}
+
