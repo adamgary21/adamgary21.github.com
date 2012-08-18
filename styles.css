@@ -248,17 +248,18 @@ a:hover
 
 .sticky {
   -webkit-box-shadow: #DDD 0px 1px 2px;
-  position: relative;
+  /*position: relative;*/
   background-color: #F4F39E;
   border-color: #DEE184;
   text-align: center;
-  margin: 2.5em 0px;
-  padding: 1.5em 1em;
+  /*margin: 2.5em 0px;*/
+  /*padding: 1.5em 1em; */
   -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   font-family: Chalkboard, 'Comic Sans';
 }
+/*
 .sticky.taped:after {
   display: block;
   content: "";
@@ -269,3 +270,4 @@ a:hover
   left: 25%;    
   background: transparent url(/images/tape.png) 0 0 no-repeat;
 }
+*/
