@@ -224,16 +224,22 @@ a:hover
 
 /* Extras */
 
-#twitter_update_list
-{
-
-}
-
-#twitter_update_list li
-{
+#twitter_update_list {
+    font-size: 13px;
+	line-height: 21px;
+	list-style: none;
+	}
+#twitter_update_list li {
+	padding-bottom: 7px;
+	margin-bottom: 9px;
+	}
+#twitter_update_list span, #twitter_update_list span a {
+	color: #ababab;
 	text-decoration: none;
-	list-style-type: none;
-}
+	}
+#twitter_update_list a {
+	color: #6f7276;
+	}
 
 #disqus_thread
 {
