@@ -252,9 +252,13 @@ a:hover
 
 .sticky_div {
   width: 250px;
+  height: 250px;
   margin: auto;
   margin-top: 50px;
 }
+
+
+/* Sticky */
 
 .sticky {
   -webkit-box-shadow: #DDD 0px 1px 2px;
