@@ -250,12 +250,13 @@ a:hover
 }
 
 .sticky {
+    
   background-color: rgba(244,243,158,1);
   -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
   background-color: #F4F39E;
   padding: 1.5em 1em;
-  margin: 2.5em 0px;
+  margin: 2.5em 0px auto;
   -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
