@@ -104,3 +104,4 @@
 {"ts":1345370997511,"patch":[[{"diffs":[[0,"ticky {\n"],[1,"  margin: 10px; auto;\n"],[0,"  width:"]],"start1":3037,"start2":3037,"length1":16,"length2":38}]],"length":3679,"saved":false}
 {"ts":1345371345663,"patch":[[{"diffs":[[0,";\n}\n"],[-1,"/*\n.sticky"],[1,"\n"],[0,".tap"]],"start1":3464,"start2":3464,"length1":18,"length2":9},{"diffs":[[0,"peat;\n}\n"],[-1,"*/"]],"start1":3660,"start2":3660,"length1":10,"length2":8}]],"length":3668,"saved":false}
 {"ts":1345371557129,"patch":[[{"diffs":[[0,"ns';\n}\n\n"],[1,"\n"],[0,".taped:a"]],"start1":3461,"start2":3461,"length1":16,"length2":17}]],"length":3669,"saved":false}
+{"ts":1345371677897,"patch":[[{"diffs":[[0,"s';\n}\n\n\n"],[1,"/* Tape Image */\n\n"],[0,".taped:a"]],"start1":3462,"start2":3462,"length1":16,"length2":34}]],"length":3687,"saved":false}
