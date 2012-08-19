@@ -245,10 +245,10 @@ a:hover
 /* Sticky Note-Like Box */
 
 .sticky {
-  width: 500px;
+  width: 50px;
   height: 50px;
   -webkit-box-shadow: #DDD 0px 1px 2px;
-  background-color: rgb(244,243,158,1);
+  background-color: rgb(244,243,158,0);
   border-color: #DEE184;
   text-align: center;
   /*margin: 2.5em 0px;*/
