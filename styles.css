@@ -271,5 +271,5 @@ a:hover
   height: 35px;
   top: -21px;
   left: 25%;    
-  background: transparent url(tape.png) 0 0 no-repeat;
+  background: transparent url(/images/tape.png) 0 0 no-repeat;
 }
