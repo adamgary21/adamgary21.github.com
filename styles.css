@@ -1,9 +1,7 @@
-/* Remove browser defaults */
-
 * 
 {
     margin: 0;
-	padding: 0;
+    padding: 0;
 	border: 0;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
@@ -25,7 +23,7 @@ body
 #main_div
 {
 	 width: 100%;
-	 
+
 }
 
 #inner_container
@@ -34,7 +32,7 @@ body
 	margin-bottom: 20px;
 	margin-top: 10px;
 	width: 1070px;
-
+	opacity:0.87;
 }
 
 #header
@@ -113,6 +111,9 @@ body
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	height: 30px;
+   	background-color: #3b4019;
+   	color: #d8d9ba;
+   	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
    	line-height: 30px;
    	padding-left: 20px;
 }
@@ -142,7 +143,7 @@ padding-bottom: 5px;
 {
 	float: right;
 	width: 300px;
-	background-color: rgb(216,217,186, 1);
+	background-color: #d8d9ba;
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 700px;
@@ -155,7 +156,6 @@ padding-bottom: 5px;
 {
 	padding: 10px;
 }
-
 #sidebar #sidebar_content ul
 {
 	list-style-type: none;
@@ -172,7 +172,7 @@ padding-bottom: 5px;
 	color: #d8d9ba;
 }
 
-#footer #footer_content
+#footer #text
 {	
 	margin-left: 20px;
 	line-height: 50px;
@@ -189,6 +189,11 @@ padding-bottom: 5px;
 	margin-bottom: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+#posts h2
+{
+	margin-bottom: 5px;
 }
 
 .post_date
