@@ -154,6 +154,7 @@ padding-bottom: 5px;
 #sidebar #sidebar_content
 {
 	padding: 10px;
+    margin: 10px, auto;
 }
 #sidebar #sidebar_content ul
 {
@@ -244,7 +245,6 @@ a:hover
 /* Sticky Note-Like Box */
 
 .sticky {
-  margin: 10px, auto;
   width: 250px;
   height: 250px;
   -webkit-box-shadow: #DDD 0px 1px 2px;
