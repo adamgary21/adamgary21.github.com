@@ -21,8 +21,7 @@
 		</ul>
 	</div>
 </div>
-
-	<div id="content">
+    <div id="content">
 	
 	{% if page.title != 'Home' %}
 		<div id="headline">{{ page.title }}</div>
@@ -30,10 +29,10 @@
 	
 	{{ content }}
     
-	</div>
-	
-	<div id="sidebar">
-		<div id="sidebar_content">
+	</div>	
+	<div id="sidebar"></div>
+    
+        <div id="sidebar_content">
 			<ul>
 				<li class="title">List Heading 1</li>
 				<li>List Item</li>
@@ -42,11 +41,11 @@
 		
 		<div id="twitter_update_list"></div>
 		    
-		<div>
-        		<p class="sticky">
-            			Test Text
-        		</p>
-    		</div>
+		<div class="sticky_div">
+        	<p class="sticky">
+            	Test Text
+        	</p>
+    	</div>
 
 	</div>
 

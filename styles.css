@@ -50,6 +50,7 @@ body
    	font-size: 36px;
    	color: #d8d9ba;
    	background-color: #3b4019;
+    z-value: 5;
 }
 
 #header a:link 
@@ -113,9 +114,6 @@ body
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	height: 30px;
-   	background-color: #3b4019;
-   	color: #d8d9ba;
-   	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
    	line-height: 30px;
    	padding-left: 20px;
 }
@@ -158,6 +156,7 @@ padding-bottom: 5px;
 {
 	padding: 10px;
 }
+
 #sidebar #sidebar_content ul
 {
 	list-style-type: none;
@@ -174,7 +173,7 @@ padding-bottom: 5px;
 	color: #d8d9ba;
 }
 
-#footer #text
+#footer #footer_content
 {	
 	margin-left: 20px;
 	line-height: 50px;
@@ -191,11 +190,6 @@ padding-bottom: 5px;
 	margin-bottom: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
-}
-
-#posts h2
-{
-	margin-bottom: 5px;
 }
 
 .post_date
@@ -251,7 +245,7 @@ a:hover
   height: 200px;
   -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
-  background-color: #F4F39E;
+  background-color: rgb(244,243,158,1);
   border-color: #DEE184;
   text-align: center;
   /*margin: 2.5em 0px;*/
