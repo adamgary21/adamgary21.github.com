@@ -251,6 +251,7 @@ a:hover
 /* Sticky Note-Like Box */
 
 .sticky_div {
+  width: 250px;
   margin: auto;
 }
 
