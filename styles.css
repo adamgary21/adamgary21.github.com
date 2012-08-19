@@ -34,7 +34,7 @@ body
 	margin-bottom: 20px;
 	margin-top: 10px;
 	width: 1070px;
-	opacity:0.87;
+
 }
 
 #header
@@ -143,7 +143,7 @@ padding-bottom: 5px;
 {
 	float: right;
 	width: 300px;
-	background-color: #d8d9ba;
+	background-color: rgb(216,217,186, );
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 700px;
