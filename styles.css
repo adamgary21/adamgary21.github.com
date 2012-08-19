@@ -254,7 +254,7 @@ a:hover
   position: relative;
   background-color: #F4F39E;
   padding: 1.5em 1em;
-  padding: 1.5em 1em;
+  margin: 2.5em 0px;
   -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
