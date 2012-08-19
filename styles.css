@@ -253,6 +253,7 @@ a:hover
 .sticky_div {
   width: 250px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .sticky {
