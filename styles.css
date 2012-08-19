@@ -263,7 +263,7 @@ a:hover
 
 /* Tape Image */
 
-.taped:after {
+.sticky.taped:after {
   display: block;
   content: "";
   position: absolute; 
