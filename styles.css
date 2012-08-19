@@ -262,8 +262,7 @@ a:hover
 .sticky {
   -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
-
-  background: rgba(244,243,158,1) url(/images/twitter.png) right no-repeat;
+  background-color: rgba(244,243,158,1);
   border-color: #DEE184;
   text-align: center;
   margin: auto;
