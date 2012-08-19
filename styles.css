@@ -247,6 +247,8 @@ a:hover
 /* Sticky Note-Like Box */
 
 .sticky {
+  width: 280px;
+  height: 200px;
   -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
   background-color: #F4F39E;
