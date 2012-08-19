@@ -245,6 +245,7 @@ a:hover
 /* Sticky Note-Like Box */
 
 .sticky {
+  margin: 10px; auto;
   width: 250px;
   height: 250px;
   -webkit-box-shadow: #DDD 0px 1px 2px;
