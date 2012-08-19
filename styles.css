@@ -16,7 +16,6 @@ body
 	 -moz-background-size: cover;
 	 -o-background-size: cover;
 	 background-size: cover;
-
 	 color: #3b4019;
 }
 
@@ -142,7 +141,7 @@ padding-bottom: 5px;
 {
 	float: right;
 	width: 300px;
-	background-color: #d8d9ba;
+	background-color: rgb(216,217,186, .86);
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 700px;
