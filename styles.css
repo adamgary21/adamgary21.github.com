@@ -96,7 +96,7 @@ body
 	float: left;
 	width: 760px;
 	min-height: 700px;
-	background-color: #d8d9ba;
+	background-color: #73614c;
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	margin-bottom: 10px;
@@ -142,7 +142,7 @@ padding-bottom: 5px;
 {
 	float: right;
 	width: 300px;
-	background-color: rgba(216,217,186, .86);
+	background-color: rgba(115,97,76, .86);
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 700px;
