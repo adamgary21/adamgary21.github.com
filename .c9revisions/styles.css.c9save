@@ -107,3 +107,10 @@
 {"ts":1345371677897,"patch":[[{"diffs":[[0,"s';\n}\n\n\n"],[1,"/* Tape Image */\n\n"],[0,".taped:a"]],"start1":3462,"start2":3462,"length1":16,"length2":34}]],"length":3687,"saved":false}
 {"ts":1345371960699,"patch":[[{"diffs":[[0,"age */\n\n"],[1,".sticky"],[0,".taped:a"]],"start1":3480,"start2":3480,"length1":16,"length2":23}]],"length":3694,"saved":false}
 {"ts":1345372414977,"patch":[[{"diffs":[[0,"\n.sticky"],[1,"_div"],[0," {\n  mar"]],"start1":3034,"start2":3034,"length1":16,"length2":20},{"diffs":[[0," 250px;\n"],[1,"}\n\n.sticky {\n"],[0,"  -webki"]],"start1":3096,"start2":3096,"length1":16,"length2":29}]],"length":3711,"saved":false}
+{"ts":1345525106338,"patch":[[{"diffs":[[0,"l('/"],[-1,"Barrels"],[1,"ima"],[0,".jpg"]],"start1":150,"start2":150,"length1":15,"length2":11}]],"length":3909,"saved":false}
+{"ts":1345525107670,"patch":[[{"diffs":[[0,"rl('/ima"],[1,"ges/"],[0,".jpg') n"]],"start1":149,"start2":149,"length1":16,"length2":20}]],"length":3913,"saved":false}
+{"ts":1345525108427,"patch":[[{"diffs":[[0,"/images/"],[1,"in"],[0,".jpg') n"]],"start1":153,"start2":153,"length1":16,"length2":18}]],"length":3915,"saved":false}
+{"ts":1345525109223,"patch":[[{"diffs":[[0,"mages/in"],[1,"-"],[0,".jpg') n"]],"start1":155,"start2":155,"length1":16,"length2":17}]],"length":3916,"saved":false}
+{"ts":1345525110393,"patch":[[{"diffs":[[0,"ages/in-"],[1,"the-"],[0,".jpg') n"]],"start1":156,"start2":156,"length1":16,"length2":20}]],"length":3920,"saved":false}
+{"ts":1345525111088,"patch":[[{"diffs":[[0,"/in-the-"],[1,"for"],[0,".jpg') n"]],"start1":160,"start2":160,"length1":16,"length2":19}]],"length":3923,"saved":false}
+{"ts":1345525113079,"patch":[[{"diffs":[[0,"-the-for"],[1,"rest"],[0,".jpg') n"]],"start1":163,"start2":163,"length1":16,"length2":20}]],"length":3927,"saved":false}
