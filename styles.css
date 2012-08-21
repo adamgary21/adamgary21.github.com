@@ -44,7 +44,7 @@ body
    	font-weight: heavy; 
    	font-style: normal; 
    	font-size: 36px;
-   	color: #d8d9ba;
+   	color: white;
    	background-color: rgba(38,15,1, .92);
 }
 
@@ -167,7 +167,7 @@ padding-bottom: 5px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 50px;
     background-color: rgba(38,15,1, .92);
-	color: #d8d9ba;
+	color: white;
 }
 
 #footer #text
