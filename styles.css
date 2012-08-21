@@ -285,15 +285,13 @@ a:hover
   background: transparent url(/images/tape.png) 0 0 no-repeat;
 }
 .sticky a:link 
-{
-    text-decoration: none;	
-	COLOR: white;
-
+{	
+	COLOR: blue;
 }
 
 .sticky a:visited 
 {
-	COLOR: white;
+	COLOR: purple;
 }
 
 .sticky a:hover
