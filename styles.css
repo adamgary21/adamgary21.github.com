@@ -195,19 +195,19 @@ padding-bottom: 5px;
 a:link 
 {
 	text-decoration: none;	
-	COLOR: #4f6801;
+	COLOR: #769b01;
 
 }
 
 a:visited 
 {
-	COLOR: #769b01;
+	COLOR: #4f6801;
 }
 
 a:hover
 {
 
-	COLOR: #769b01;
+	COLOR: #4f6801;
 }
 
 /* Extras */
