@@ -16,7 +16,7 @@ body
 	 -moz-background-size: cover;
 	 -o-background-size: cover;
 	 background-size: cover;
-	 color: white;
+	 color: #e5e700;
 }
 
 #main_div
@@ -100,7 +100,6 @@ body
 	border-top-right-radius: 8px;
 	height: 30px;
    	background-color: rgba(32,33,25, .82);
-   	color: white;
    	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
    	line-height: 30px;
    	padding-left: 20px;
