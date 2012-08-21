@@ -45,7 +45,7 @@ body
    	font-style: normal; 
    	font-size: 36px;
    	color: #d8d9ba;
-   	background-color: rgba(32,33,25, .86);
+   	background-color: rgba(rgb(38,15,1, .86);
 }
 
 #header a:link 
@@ -166,7 +166,7 @@ padding-bottom: 5px;
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 50px;
-    background-color: rgba(32,33,25, .86);
+    background-color: rgba(rgb(38,15,1, .86);
 	color: #d8d9ba;
 }
 
