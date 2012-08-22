@@ -231,7 +231,7 @@ a:hover
 	padding-right: 30px;
 }
 
-#posts h2
+.post h2
 {
     COLOR: #769b01;
 	margin-bottom: 10px;
@@ -272,7 +272,7 @@ a:hover
 
 #disqus_thread
 {
-    background-color: rgba(0,0,0, .82);
+    background-color: rgba(23,24,5, .82);
 	margin: 0px;
     width: 500px;
 }
