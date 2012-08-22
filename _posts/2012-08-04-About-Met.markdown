@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Post 1
+title: About Me
 ---
 
 <img src="/me.jpeg" alt="me" style="width:150px;" />
