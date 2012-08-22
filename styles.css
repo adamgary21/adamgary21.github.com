@@ -105,7 +105,7 @@ body
     background-color: rgba(40,41,0, .82);
 }
 
-#content #headline
+.headline
 {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
