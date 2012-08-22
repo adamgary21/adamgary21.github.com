@@ -3,7 +3,6 @@ layout: Post
 title:  About
 ---
 
-<div class="post">
 
 <p>
 <h2>About Me</h2>
@@ -37,5 +36,3 @@ my thoughts into textual records. That being said, I welcome anyone who finds
 use for this information to freely do so, and leave any questions, or comments 
 so I may improve upon it. 
 </p>
-
-</div>
