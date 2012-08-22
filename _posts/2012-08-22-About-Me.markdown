@@ -23,14 +23,3 @@ guy offered a position in Silicon Valley? What a no-brainer! Since then it
 has been nothing short of a dream. I am eager to see where I take myself in 
 the years to come.
 </p>
-
-
-<p>
-I created this blog from scratch using HTML, CSS and some Javascript. It was 
-through this project I was introduced to GIT and GitHub. Initially it started 
-as a result of not having a good solution to centrally  stash, and review my 
-projects, collections of seemingly random technical information, and translate 
-my thoughts into textual records. That being said, I welcome anyone who finds 
-use for this information to freely do so, and leave any questions, or comments 
-so I may improve upon it. 
-</p>
