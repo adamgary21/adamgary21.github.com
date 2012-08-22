@@ -166,7 +166,7 @@ padding-bottom: 5px;
 	border-radius: 8px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 	height: 50px;
-    	background-color: rgba(23,24,5, .92);
+    background-color: rgba(23,24,5, .92);
 	color: white;
 }
 
@@ -272,9 +272,10 @@ a:hover
 
 #disqus_thread
 {
+    padding: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
     background-color: rgba(23,24,5, .82);
 	margin: 0px;
-    width: 500px;
 }
 
 
