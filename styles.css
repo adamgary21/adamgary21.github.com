@@ -180,7 +180,7 @@ padding-bottom: 5px;
 /* ### Site Wide Elements ### */
 p
 {
-    margin-top: 20px;
+
     margin-bottom 20px;
 }
 
@@ -193,7 +193,8 @@ img
 {
     float: left;
     border:0;
-    margin-right: 10px;"   
+    margin-right: 10px;
+    margin-bottom: 10px; 
 }
 
 /* Page wide Links */
