@@ -48,7 +48,7 @@ body
    	background-color: rgba(23,24,5, .82);
 }
 
-#header a:link 
+#header a:link:visited 
 {
 	text-decoration: none;	
     COLOR: #769b01;
