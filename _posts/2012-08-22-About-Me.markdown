@@ -5,7 +5,6 @@ title:  About
 
 
 <p>
-<h2>About Me</h2>
 <img src="/me.jpeg" alt="me" style="width:150px;" />
 I fell in love with computers and well, all electronics at a very young age. 
 When I was just 10 years old, I played Jazz the Jackrabbit on an old Windows 
