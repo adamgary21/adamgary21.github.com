@@ -12,8 +12,7 @@ title:  Archive
 
 		{% for post in site.posts off %}
 	
-			<li>{{ post.title }}</li>
-	
+	        <h6>{{ post.title }}</h6><div class="post_date">Posted by <a href="about.html">{{ site.author }}</a> on {{ page.date | date_to_string }}</div>
 
 		{% endfor %}
 	</ul>
