@@ -189,6 +189,13 @@ h2
     margin-bottom: 20px;
 }
 
+img
+{
+    float: left;
+    border:0;
+    margin-right: 10px;"   
+}
+
 /* Page wide Links */
 
 a:link 
