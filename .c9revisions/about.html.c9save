@@ -1,0 +1,2 @@
+{"ts":1345602473914,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\nlayout: default\ntitle:  About\n---\n\n<div id=\"non-home_page\">\n\n\tPage about me and the site\n\t\n</div>"]],"start1":0,"start2":0,"length1":0,"length2":101}]],"length":101}
+{"contributors":[],"silentsave":true,"ts":1345602498663,"patch":[[{"diffs":[[0,">\n\n\t"],[-1,"Page about me and the site"],[0,"\n\t\n<"]],"start1":62,"start2":62,"length1":34,"length2":8}]],"length":75,"saved":false}
