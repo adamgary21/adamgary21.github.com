@@ -176,13 +176,37 @@ padding-bottom: 5px;
 	line-height: 50px;
 }
 
+
+/* ### Site Wide Elements ### */
 p
 {
     margin-top: 20px;
     margin-bottom 20px;
 }
 
+/* Page wide Links */
+
+a:link 
+{
+    text-decoration: none;	
+	COLOR: #769b01;
+
+}
+
+a:visited 
+{
+	COLOR: #4f6801;
+}
+
+a:hover
+{
+
+	COLOR: #4f6801;
+}
+
+
 /* Posts */
+
 .post
 {
 	text-align:justify;
@@ -210,25 +234,6 @@ p
     
 }
 
-/* Page wide Links */
-
-a:link 
-{
-	text-decoration: none;	
-	COLOR: #769b01;
-
-}
-
-a:visited 
-{
-	COLOR: #4f6801;
-}
-
-a:hover
-{
-
-	COLOR: #4f6801;
-}
 
 /* Extras */
 
