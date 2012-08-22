@@ -1,6 +1,6 @@
 ---
 layout: Post
-title:  About
+title:  About Me
 ---
 
 
@@ -26,7 +26,6 @@ the years to come.
 
 
 <p>
-<h2>About this Blog</h2>
 I created this blog from scratch using HTML, CSS and some Javascript. It was 
 through this project I was introduced to GIT and GitHub. Initially it started 
 as a result of not having a good solution to centrally  stash, and review my 
