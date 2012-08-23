@@ -197,12 +197,12 @@ img
 
 
 
-hr {
-  border: 0;
-  width: 80%;
-  color: #f00;
-    background-color: #f00;
-    height: 5px;
+hr 
+{
+    border: 0;
+    width: 80%;
+    color: #f00;
+    height: 3px;
 }
 
 /* Page wide Links */
