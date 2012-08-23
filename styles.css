@@ -120,12 +120,12 @@ body
 
 #archive h4
 {
-    margin-left: 20px;
+    margin: 0px 0px 0px 20px;
 }
 
 #archive.post_date
 {
-    margin-left: 40px;
+    margin: 0px 0px 0px 40px;
 }
 
 #archive ul
