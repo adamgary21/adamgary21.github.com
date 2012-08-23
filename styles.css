@@ -204,7 +204,7 @@ h4.archive
 hr 
 {
     border: 0;
-    width: 100%;
+    width: 80%;
     color: #769b01;
     margin: auto;
     background-color: #769b01;
@@ -299,7 +299,8 @@ a:hover
 
 /* Sticky Note-Like Box */
 
-.sticky_div {
+.sticky_div 
+{
   width: 250px;
   margin: auto;
   margin-top: 50px;
