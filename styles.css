@@ -118,7 +118,7 @@ body
 
 .archive
 {
-	padding: 30px;
+	padding: 10px;
 }
 
 .archive ul
@@ -130,6 +130,11 @@ body
 {
     padding-left: 14px;
     padding-bottom: 5px; 
+}
+
+archive h4
+{
+    margin-bottom: 0px;
 }
 
 .sidebar
@@ -194,12 +199,6 @@ img
     margin-top: 5px;
     margin-right: 10px;
 }
-
-h4.archive 
-{
-    margin-bottom: 0px;
-}
-
 
 hr 
 {
