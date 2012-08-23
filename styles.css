@@ -202,8 +202,9 @@ hr
     border: 0;
     width: 80%;
     color: #769b01;
+    margin: auto;
     background-color: #769b01;
-    height: 3px;
+    height: 1px;
 }
 
 /* Page wide Links */
