@@ -118,9 +118,14 @@ body
 	margin: 20px;
 }
 
-h4#archive
+#archive h4
 {
-    margin: 20px 20px 0px 20px;
+    margin-left: 20px;
+}
+
+#archive.post_date
+{
+    margin-left: 40px;
 }
 
 #archive ul
