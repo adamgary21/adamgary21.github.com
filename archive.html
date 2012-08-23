@@ -3,7 +3,7 @@ layout: default
 title:  Archive
 ---
 
-<div class="archive">
+<div id="archive">
 
 
 <h2>List of Past Posts</h2>
@@ -13,7 +13,7 @@ title:  Archive
 		{% for post in site.posts off %}
 	
 	        <li>
-                <h4 class="archive"><a href="{{post.url}}">{{ post.title }}</a></h4>
+                <h4 id="archive"><a href="{{post.url}}">{{ post.title }}</a></h4>
                 
                 <span class="post_date">Posted by <a href="about.html">{{ site.author }}</a> on {{ post.date | date_to_string }}</span>
             </li>
