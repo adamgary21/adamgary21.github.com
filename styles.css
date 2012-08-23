@@ -222,9 +222,10 @@ a:hover
 
 hr 
 {
-    border: 0;
+    border: 1px;
     width: 100%;
     color: #769b01;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
     margin: auto;
     background-color: #769b01;
     height: 2px;
