@@ -131,7 +131,7 @@ body
     padding-bottom: 5px; 
 }
 
-archive h4
+.archive h4
 {
     margin-bottom: 0px;
 }
@@ -149,11 +149,11 @@ archive h4
 	font-size: 15px;	
 }
 
-#sidebar #sidebar_content
+.sidebar #sidebar_content
 {
     margin: 10px, auto;
 }
-#sidebar #sidebar_content ul
+.sidebar #sidebar_content ul
 {
 	list-style-type: none;
 }

@@ -1,80 +1,73 @@
 <html>
-  <head>
-    <title>{{ page.title }} | {{ site.name }}</title>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="/styles.css" type="text/css" media="screen">
-    <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/junction" rel="stylesheet" type="text/css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-  <div id="main_div">
-
-<div id="inner_container">
-
-<div id="header">
-    <div id="text"><a href="index.html" alt="Adam Gary" >Adam Gary</a></div>
-    <div class="shr_class shareaholic-show-on-load" style="margin: auto opx auto 0px; v-align: bottom; width: 100px;"></div>
-<div id="nav">
-<ul>
-<li><a href="/index.html">Home</a></li>
-<li><a href="/about.html">About</a></li>
-<li><a href="/archive.html">Archive</a></li>
-</ul>
-</div>
-</div>
-
-<div id="content">
-<div class="headline">{{ page.title }}</div>
-
-{{ content }}
+    <head>
+        <title>{{ page.title }} | {{ site.name }}</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" href="/styles.css" type="text/css" media="screen">
+        <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/junction" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    </head>
+        <body>
+            <div id="main_div">
     
-
+                <div id="inner_container">
     
-</div>
-
-<div id="sidebar">
-<div id="sidebar_content">
-        <div class="headline">Goodies</div>
+                    <div id="header">
+                        <div id="text"><a href="index.html" alt="Adam Gary" >Adam Gary</a></div>
+                        
+                        <div id="nav">
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/about.html">About</a></li>
+                                <li><a href="/archive.html">Archive</a></li>
+                            </ul>
+                        </div> <!-- End Nav -->
+                        
+                    </div> <!-- End header -->
+    
+                    <div id="content">
+                        <div class="headline">{{ page.title }}</div>
+                        {{ content }}
+                    </div> <!-- End Content -->
         
-       
+                    <div id="sidebar">
+                        <div id="sidebar_content">
+                            <div class="headline">Goodies</div>
+                        
+                            <div class="sticky_div">
+                                <p class="sticky taped" id="twitter_update_list"></p>    
+                            </div> <!-- End sticky -->
+                            
+                        </div> <!-- End sidebar_content -->
+                        
+                    </div> <!-- End sidebar -->
+            
+                </div> <!-- End inner -->
+                
+                <div id="footer">
+                    <div id="text">Copyright &copy; 2012 Adam Gary</div>
+                </div>
+                
+            </div> <!-- End Main -->
     
-        <div class="sticky_div"><p class="sticky taped" id="twitter_update_list"></p></div>
-
-        </div>
-</div>
-</div>
-
-
-<div id="footer">
-<div id="text">
-Copyright &copy; 2012 Adam Gary
-</div>
-</div>
-</div>
-
-    </div>
-
-    <!-- End Shareaholic Sexy Bookmark HTML -->
-    <!-- Start Shareaholic Sexy Bookmark settings -->
-    <script type="text/javascript">
-        var SHRSB_Settings = {"shr_class":{"src":"http://adamgary.com/","link":"","service":"88,5,7,78,304","apikey":"0747414f47c2b684cf5480c36b2478689","localize":true,"shortener":"bitly","shortener_key":"","designer_toolTips":true,"tip_bg_color":"black","tip_text_color":"white","twitter_template":"${title} - ${short_link} via @Shareaholic"}};
-        var SHRSB_Globals = {"perfoption":"1"};
-    </script>
-    <!-- End Shareaholic Sexy Bookmark settings -->
-    <!-- Start Shareaholic Sexy Bookmark script -->
-    <script type="text/javascript">
-    (function() {
-        var sb = document.createElement("script"); sb.type = "text/javascript";sb.async = true;
-        sb.src = ("https:" == document.location.protocol ? "https://dtym7iokkjlif.cloudfront.net" : "http://cdn.shareaholic.com") + "/media/js/jquery.shareaholic-publishers-sb.min.js";
-        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sb, s);
-        })();
-    </script>
-
-<!-- End Shareaholic Sexy Bookmark script -->
+            <!-- End Shareaholic Sexy Bookmark HTML -->
+            <!-- Start Shareaholic Sexy Bookmark settings -->
+            <script type="text/javascript">
+                var SHRSB_Settings = {"shr_class":{"src":"http://adamgary.com/","link":"","service":"88,5,7,78,304","apikey":"0747414f47c2b684cf5480c36b2478689","localize":true,"shortener":"bitly","shortener_key":"","designer_toolTips":true,"tip_bg_color":"black","tip_text_color":"white","twitter_template":"${title} - ${short_link} via @Shareaholic"}};
+                var SHRSB_Globals = {"perfoption":"1"};
+            </script>
+            <!-- End Shareaholic Sexy Bookmark settings -->
+            <!-- Start Shareaholic Sexy Bookmark script -->
+            <script type="text/javascript">
+                (function() {
+                    var sb = document.createElement("script"); sb.type = "text/javascript";sb.async = true;
+                    sb.src = ("https:" == document.location.protocol ? "https://dtym7iokkjlif.cloudfront.net" : "http://cdn.shareaholic.com") + "/media/js/jquery.shareaholic-publishers-sb.min.js";
+                    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sb, s);
+                })();
+            </script>
+            <!-- End Shareaholic Sexy Bookmark script -->
 
 
-    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/adamgary21.json?callback=twitterCallback2&count=1"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </body>
-</html>
+            <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+            <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/adamgary21.json?callback=twitterCallback2&count=1"></script>
+    </body> <!-- End body -->
+</html> <!-- End html -->
