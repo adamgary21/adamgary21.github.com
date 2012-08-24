@@ -181,9 +181,14 @@ body
     font-size: 15px;
 }
 
-.sidebar hr
+#sidebar hr
 {
-	margin: 20px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#sidebar .heading
+{
+	margin-top: 20px;
+	text-align: center;
 }
 
 /* ### Site Wide Elements ### */
@@ -307,7 +312,7 @@ hr
 
 .shr_class shareaholic-show-on-load
 {
-    margin: 30px auto 30px auto;   
+    margin: 0px auto 30px auto;   
 }
 
 
