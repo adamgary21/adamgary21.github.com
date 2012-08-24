@@ -181,6 +181,10 @@ body
     font-size: 15px;
 }
 
+.sidebar hr
+{
+	margin: 20px 0px 20px 0px;
+}
 
 /* ### Site Wide Elements ### */
 p
@@ -234,11 +238,6 @@ hr
 .about hr
 {
 	margin: 10px 0px 30px 0px;
-}
-
-.sidebar hr
-{
-	margin: 20px 0px 20px 0px;
 }
 
 /* Posts */
