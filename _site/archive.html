@@ -7,6 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     </head>
         <body>
+			<div id="pin"><p>This is some test text for the pin div</p></div>
             <div id="main_div">
     
                 <div id="inner_container">
@@ -37,6 +38,14 @@
 		
 	
 	        <li>
+                <h3 id="archive"><a href="/08-25-2012/How-To-Post.html">How To Post</a></h3>
+                
+                <span class="post_date" id=""archive"">Posted by <a href="about.html">Adam Gary</a> on 25 Aug 2012</span>
+            </li>
+ 
+		
+	
+	        <li>
                 <h3 id="archive"><a href="/08-22-2012/About-Me.html">About Me</a></h3>
                 
                 <span class="post_date" id=""archive"">Posted by <a href="about.html">Adam Gary</a> on 22 Aug 2012</span>
@@ -51,16 +60,21 @@
         
                     <div id="sidebar">
                         <div id="sidebar_content">
-							<hr />
                             <div class="headline">Goodies</div>
 							<hr />
-							<div class="heading">Share This Page<hr /></div>
-                        	<div class="shr_class shareaholic-show-on-load"></div>
 
-							<div class="heading">Last Tweet<hr /></div>
-                            <div class="sticky_div">
-                                <p class="sticky taped" id="twitter_update_list"></p>    
-                            </div> <!-- End sticky -->
+							
+							<div class="content_block">
+								<div class="heading"><h4>Share This Page</h4><hr /></div>
+                        		<div class="shr_class shareaholic-show-on-load"></div>
+							</div>
+							
+							<div class="content_block">
+								<div class="heading"><h4>Last Tweet</h4><hr /></div>
+                            	<div class="sticky_div">
+                                	<div class="sticky taped"><p id="twitter_update_list">I am sorry but the last Tweet Failed to Load. Please refresh this page or try again later.</p></div>   
+                            	</div> <!-- End sticky -->
+							</div>
                             
                         </div> <!-- End sidebar_content -->
                         
@@ -69,7 +83,7 @@
                 </div> <!-- End inner -->
                 
                 <div id="footer">
-                    <div id="text">Copyright &copy; 2012 Adam Gary</div>
+                    <div id="text">Copyright &copy; 2012 <a href="about.html" id="scale_link">Adam Gary</a></div>
                 </div>
                 
             </div> <!-- End Main -->
@@ -95,5 +109,6 @@
 
             <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
             <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/adamgary21.json?callback=twitterCallback2&count=1"></script>
+
     </body> <!-- End body -->
 </html> <!-- End html -->

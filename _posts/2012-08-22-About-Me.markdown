@@ -5,7 +5,7 @@ title:  About Me
 
 
 <p>
-<img src="/me.jpeg" alt="me" style="width:150px;" />
+<img src="/images/me.jpeg" alt="me" style="width:150px;" />
 I fell in love with computers and well, all electronics at a very young age. 
 When I was just 10 years old, I played Jazz the Jackrabbit on an old Windows 
 95 machine. Since the game was launched from a DOS prompt, I was
@@ -16,7 +16,7 @@ Institute of Technology (RIT). I have held many different computer related posit
 from running my own computer repair business to a Network Engineer at Xerox 
 to a NOC engineer at LinkedIn. It was always my dream to work for Cisco 
 Systems in High School. After completing an internship with them, I set my 
-goals even higher, yet I hadn't defined what that "higher" was yet. My senior 
+goals even higher, yet I hadn't defined what that "higher" was. My senior 
 year at RIT, I was contacted by LinkedIn, and ultimately offered a position 
 as a NOC engineer at their headquarters in Mountain View California. A tech 
 guy offered a position in Silicon Valley? What a no-brainer! Since then it 

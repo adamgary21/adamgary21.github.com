@@ -7,6 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     </head>
         <body>
+			<div id="pin"><p>This is some test text for the pin div</p></div>
             <div id="main_div">
     
                 <div id="inner_container">
@@ -33,7 +34,7 @@
     <hr class="style-one"/>
     <div class="post_date">Posted by <a href="about.html">Adam Gary</a> on 22 Aug 2012</div>
     <p>
-<img src="/me.jpeg" alt="me" style="width:150px;" />
+<img src="/images/me.jpeg" alt="me" style="width:150px;" />
 I fell in love with computers and well, all electronics at a very young age. 
 When I was just 10 years old, I played Jazz the Jackrabbit on an old Windows 
 95 machine. Since the game was launched from a DOS prompt, I was
@@ -44,7 +45,7 @@ Institute of Technology (RIT). I have held many different computer related posit
 from running my own computer repair business to a Network Engineer at Xerox 
 to a NOC engineer at LinkedIn. It was always my dream to work for Cisco 
 Systems in High School. After completing an internship with them, I set my 
-goals even higher, yet I hadn't defined what that "higher" was yet. My senior 
+goals even higher, yet I hadn't defined what that "higher" was. My senior 
 year at RIT, I was contacted by LinkedIn, and ultimately offered a position 
 as a NOC engineer at their headquarters in Mountain View California. A tech 
 guy offered a position in Silicon Valley? What a no-brainer! Since then it 
@@ -74,16 +75,21 @@ the years to come.
         
                     <div id="sidebar">
                         <div id="sidebar_content">
-							<hr />
                             <div class="headline">Goodies</div>
 							<hr />
-							<div class="heading">Share This Page<hr /></div>
-                        	<div class="shr_class shareaholic-show-on-load"></div>
 
-							<div class="heading">Last Tweet<hr /></div>
-                            <div class="sticky_div">
-                                <p class="sticky taped" id="twitter_update_list"></p>    
-                            </div> <!-- End sticky -->
+							
+							<div class="content_block">
+								<div class="heading"><h4>Share This Page</h4><hr /></div>
+                        		<div class="shr_class shareaholic-show-on-load"></div>
+							</div>
+							
+							<div class="content_block">
+								<div class="heading"><h4>Last Tweet</h4><hr /></div>
+                            	<div class="sticky_div">
+                                	<div class="sticky taped"><p id="twitter_update_list">I am sorry but the last Tweet Failed to Load. Please refresh this page or try again later.</p></div>   
+                            	</div> <!-- End sticky -->
+							</div>
                             
                         </div> <!-- End sidebar_content -->
                         
@@ -92,7 +98,7 @@ the years to come.
                 </div> <!-- End inner -->
                 
                 <div id="footer">
-                    <div id="text">Copyright &copy; 2012 Adam Gary</div>
+                    <div id="text">Copyright &copy; 2012 <a href="about.html" id="scale_link">Adam Gary</a></div>
                 </div>
                 
             </div> <!-- End Main -->
@@ -118,5 +124,6 @@ the years to come.
 
             <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
             <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/adamgary21.json?callback=twitterCallback2&count=1"></script>
+
     </body> <!-- End body -->
 </html> <!-- End html -->
