@@ -274,10 +274,16 @@ img:hover
 
 /* Page wide Links */
 
+a
+{
+	text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+}
+
 a:link 
 {
     text-decoration: none;	
 	COLOR: #769b01;
+
 }
 
 a:visited 
@@ -289,7 +295,7 @@ a:hover
 {
 	COLOR: #769b01;
 
-	text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+	text-shadow: rgba(255,255,255,1) 0px 0px 1px;
 	
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
