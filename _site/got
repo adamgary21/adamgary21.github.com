@@ -1,6 +1,0 @@
-#!/bin/bash
-git add .;
-comment=`date`;
-echo $comment;
-git commit -am "$comment";
-git push;
