@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Adventure Begins
+title:  The Adventure Begins
 ---
 
 Today marks the first day of August, and more exitingly the first real day of living in my truck. I have slept in the back before to "test drive" how it was going to work out. Last night was my first night without an apartment, but since I stayed in the comfort of my friends driveway, I'm not considering it part of this grand experiment. 
